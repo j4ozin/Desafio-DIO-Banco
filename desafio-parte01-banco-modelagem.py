@@ -169,7 +169,7 @@ class Deposito(Transacao):
         if sucesso_transacao:
             conta.historico.adicionar_transacao(self)
 
-# Validação de CPF e autenticação de usuários
+
 def validar_cpf(cpf, usuarios):
     for usuario in usuarios:
         if usuario.cpf == cpf:
